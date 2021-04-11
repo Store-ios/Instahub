@@ -1,0 +1,219 @@
+body {
+	background-color: black;
+	color: white;
+}
+.more-button {
+  background-color: #345ff2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.more-btn {
+  background-color: #345ff2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  left:230px;
+  top:-58px;
+}
+
+#h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*card*/
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.scroll {
+    max-height: 100px;
+    overflow-y: auto;
+}
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
+/*card end*/
+
+
+/*Responsive card more*/
+/*body {
+	 background: #e2e1e0;
+	 text-align: center;
+}
+ .card {
+	 background: #fff;
+	 border-radius: 3px;
+	 display: inline-block;
+	 height: 300px;
+	 margin: 1rem;
+	 position: relative;
+	 width: 290px;
+	 overflow: hidden;
+}*/
+ .card .top {
+	 display: inline-flex;
+	 width: 100%;
+	 height: 220px;
+	 overflow: hidden;
+	 justify-content: center;
+}
+ .card .top img {
+	 height: 220px;
+}
+ .card .bottom {
+	 height: 80px;
+	 width: 100%;
+}
+ .card .bottom p {
+	 text-align: left;
+	 height: 80px;
+	 width: 100%;
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+	 padding-left: 20px;
+	 display: flex;
+	 align-items: center;
+	 text-decoration: none;
+	 color: white;
+	 font-size: 18px;
+	 font-family: Roboto, sans-serif;
+}
+ .card-1 {
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	 transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+ .card-1:hover {
+	 box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	 cursor: pointer;
+}
+/*Responsive card more end*/
+
+/*App Store Card*/
+
+
+/*Img Card*/
+.img-card {
+  flex-shrink: 0;
+  width: 180px;
+  height: 220px;
+  border-radius: 25px;
+  background-color: #28293d;
+  margin: 10px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.img-card-banner {
+  width: 100%;
+  height: 110px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.img-card-btn {
+  width: 80%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  background-color: #555770;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.img-banner-li {
+  background-color: rgb(40, 41, 61, 1);
+}
