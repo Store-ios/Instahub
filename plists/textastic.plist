@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd …">
+<plist version="1.0">
+<dict>
+<key>items</key>
+<array>
+<dict>
+<key>assets</key>
+<array>
+<dict>
+<key>kind</key>
+<string>software-package</string>
+<key>url</key>
+<string>http://104.236.208.163/instahub/ipas/Textastic-InstaTechHD.ipa</string>
+</dict>
+</array>
+<key>metadata</key>
+<dict>
+<key>bundle-identifier</key>
+<string>com.32688.3955.22824.3260.10317.4668.16977</string>
+<key>bundle-version</key>
+<string>9.5</string>
+<key>kind</key>
+<string>software</string>
+<key>title</key>
+<string>Textastic</string>
+</dict>
+</dict>
+</array>
+</dict>
+</plist>
