@@ -44,9 +44,3 @@ document.onkeydown = function (e) {
 					} 
 //Disable right click
 document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }} 
-
-// init pull to refresh manually
-var ptr = app.ptr.create('.ptr-content');
-
-// or using get to retrieve already created instance
-var ptr = app.ptr.get('.ptr-content');
