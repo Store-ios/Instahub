@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div class="page" data-name="info">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back"><span class=
+          "ios-only">Back</span></a>
+        </div>
+        <div class="title">
+          Detail
+        </div>
+      </div>
+    </div>
+    <div class="page-content page-info-content">
+      <script id="info-template" type="text/template7">
+          <center>  
+
+            <div style="margin-bottom:0px;margin-top:10px;" class="list media-list inset">
+                <ul style="height:80px;box-shadow:none;" class="card-expandable card-prevent-open">
+                  <li>
+                    <a  style="border-radius:20px;" class=" item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src={{item.url}} width="60"/></div>
+                        <div class="item-inner">
+                          {{#js_if "this.item.ipa !== 'none' "}}
+                              <div onclick="downloadIpa('{{item.ipa}}');" id="downloadIpa" name={{item.urlCodeName}} style="color: white;background-color: #157efb;padding:8px;border-radius:30px;margin:0px;font-size:13px;display:block;width:50px;float:right;font-weight:800;text-align:center;">IPA</div>
+                          {{/js_if}}
+                          <div class="item-title-row">
+                            <div class="item-title">{{item.name}}</div>
+                          </div>
+                          <div style="color:#777;float:left;" class="item-subtitle ">Version: {{item.version}}</div>
+                        </div>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+            
+            <br>
+            {{#js_if "this.item.itms_url === 'no-itms' "}}
+            <span onclick="installIpa();" id="install" from={{item.downloadUrl}} name={{item.urlCodeName}}>
+              <a style="width:90%;box-shadow:1px 2px 40px #aaa;" class="button button-medium button-fill button-large button-round">Install</a>
+            </span>
+            {{else}}
+              <span onclick="installMobile('{{item.itms_url}}');" id="install" from={{item.downloadUrl}} name={{item.urlCodeName}}>
+              <a style="width:90%;box-shadow:1px 2px 40px #aaa;" class="button button-medium button-fill button-large button-round">Install</a>
+              </span>
+              <a class="guide" onclick="downloadHelper();" style="font-size: 14px;line-height: 40px;color: #FF1919;text-decoration: underline!important;">Install helper >></a>
+            {{/js_if}}
+
+            {{#js_if "this.item.tf_url != '' "}}
+            <br>
+            <span onclick="installTF();" id="installTFSpan" tfLink={{item.tf_url}} name={{item.urlCodeName}}>
+              <a style="width:90%;box-shadow:1px 2px 40px #aaa;background-color: green;" class="button button-medium button-fill button-large button-round">TF-Install</a>
+            </span>
+            {{/js_if}}
+
+            {{#each item.servers}}
+                <span onclick="installServer('{{this}}')">
+                 <a style="width:90%;box-shadow:1px 2px 40px #aaa;margin-top: 15px;" class="button button-medium button-fill button-large button-round" >Install(server{{@index}})</a>
+               </span>
+              {{/each}}
+            </center>
+            
+            <h3 style="font-size:20px;margin-left:5%;">ScreenShot</h3>
+            <center>
+              {{#each item.screenshots}}
+                 <img style="width:90%;border-radius:20px;box-shadow:1px 2px 40px #aaa;" src={{this}}>
+              {{/each}}
+             
+            </center>
+            
+            <h3 style="font-size:20px;margin-left:5%;">Description</h3>
+            
+            <center>
+              <p style="font-size:15px;width:90%;text-align:justify;">{{item.description}}</p>
+            </center>
+            
+      </script>
+    </div>
+  </div><!-- <script type="text/javascript">
+//   return{
+//     data:function(){
+    
+//       return {
+//           appName:'aaaaa',
+//           Description:'sdfsdfsfdsfsdf'
+//       }
+//     }
+// }
+// console.log('777');
+   var template = $$('#info-template').html();
+// var dd = $route.params.app_seo_name;
+// console.log(dd);
+// // compile it with Template7
+var compiledTemplate = Template7.compile(template);
+var url = 'http://www.cokernutx.com/app_mobile/findbyName?name=BobbyMovie-CotoMovies';
+app.request.promise.json(url).then(function(data){
+  var listHtml = compiledTemplate({'item':data.data});
+  $$('.page-content').append(listHtml);
+});
+</script> -->
+</body>
+</html>

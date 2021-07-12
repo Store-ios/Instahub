@@ -1,0 +1,117 @@
+:root {
+    --f7-theme-color: #007aff;
+    --f7-theme-color-shade: #007aff;
+    --f7-theme-color-tint: #007aff;
+    --f7-list-inset-side-margin: 20px;
+    --f7-list-item-divider-line-height: 0;
+    --f7-list-item-border-color: transparent;
+}
+
+body {
+    overflow: hidden;
+}
+
+.appimg {
+	border-radius:30%;
+	width:50px;
+	height:50px;
+}
+
+.tab-icon {
+    font-size: 22.5px;
+}
+.navbar-bg {
+  background-color: #0a0a0a;
+}
+.navbar-bg:after {
+    display: none;
+}
+
+.toolbar:before {
+    display: none;
+}
+
+.cat-icons {
+    width: 36px;
+    height: 36px;
+    border-radius: 25%;
+  }
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.small-card {
+  flex-shrink: 0;
+  width: 136px;
+  height: 177px;
+  border-radius: 15px;
+  background-color: #000000;
+  margin: 10px;
+  display: block;
+  text-align: center;
+}
+
+.small-card img {
+  width: 80px;
+  border-radius: 23.3px;
+  margin-top: 20px;
+}
+
+.small-card h2 {
+  color: #fff;
+}
+
+#sliderbtn {
+  position:relative; 
+  left:80px; 
+  top:2px;
+}
+
+/*Other CSS*/
+a1{
+                text-decoration:none;
+                display:inline-block;
+                margin:10px;
+                background-color:#0a0a0a;
+                padding:20px;
+                color:#fff;
+                width:120px;
+                border-radius:30px;
+            }
+            h1{
+                margin:10px;
+                font-size:25px;
+            }
+            p{
+                font-size:15px;
+                opacity:0.6;
+                margin:10px;
+}
+
+.nullified-img{
+                width:100px;
+                border-radius:23.3%;
+                margin-top:40px;
+            }
+            .nullified{
+                text-decoration:none;
+                display:inline-block;
+                margin:10px;
+                background-color:#222;
+                padding:20px;
+                color:#fff;
+                width:120px;
+                border-radius:30px;
+            }
+            .nullified{
+                margin:10px;
+                font-size:25px;
+            }
+            .nullified{
+                font-size:15px;
+                opacity:0.6;
+                margin:10px;
+							}
