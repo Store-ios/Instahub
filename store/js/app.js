@@ -1,9 +1,17 @@
 var $$ = Dom7;
 
 var app = new Framework7({
+	  // App Root Element
     root: '#app',
+		// App Name
     name: 'InstaHub',
+		//Theme
     theme: 'ios',
+		// Enable Swipe Panel
+		panel: {
+			swipe: 'left',
+		}, 
+		// Add Default Routes
     routes: routes,
     dialog: {
         title: "Unsupported Version",
@@ -62,7 +70,7 @@ function checkRJB() {
 }
 
 function checkU0() {
-    if (version >= 11.0 && version <= 14.3) {
+    if (version >= 11.0 && version <= 14.5) {
         // Running iOS 11.0 to 14.3
         window.location.href = "itms-services://?action=download-manifest&url=https://instahub.app/plists/unc0ver.plist";
     } else {
@@ -109,3 +117,35 @@ document.onkeydown = function (e) {
 					} 
 //Disable right click
 document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }} 
+
+// Create dynamic Popup
+var dynamicPopup = app.popup.create({
+  content: '<div class="popup">'+
+              '<div class="block">'+
+                '<p><a href="#" class="link popup-close">Close</a></p>'+
+                'document.write ("html lol");'+
+              '</div>'+
+            '</div>',
+  // Events
+  on: {
+    open: function (popup) {
+      console.log('Popup open');
+    },
+    opened: function (popup) {
+      console.log('Popup opened');
+    },
+  }
+});
+// Events also can be assigned on instance later
+dynamicPopup.on('close', function (popup) {
+  console.log('Popup close');
+});
+dynamicPopup.on('closed', function (popup) {
+  console.log('Popup closed');
+});
+
+// Open dynamic popup
+$$('.dynamic-popup').on('click', function () {
+  dynamicPopup.open();
+});
+
