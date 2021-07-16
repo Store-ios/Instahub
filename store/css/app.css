@@ -71,50 +71,7 @@ body {
 }
 
 /*Other CSS*/
-.a1{
-                text-decoration:none;
-                display:inline-block;
-                margin:10px;
-                background-color:#0a0a0a;
-                padding:20px;
-                color:#fff;
-                width:120px;
-                border-radius:30px;
-            }
-            h1{
-                margin:10px;
-                font-size:25px;
-            }
-            p{
-                font-size:15px;
-                opacity:0.6;
-                margin:10px;
-}
 
-.nullified-img{
-                width:100px;
-                border-radius:23.3%;
-                margin-top:40px;
-            }
-            .nullified{
-                text-decoration:none;
-                display:inline-block;
-                margin:10px;
-                background-color:#222;
-                padding:20px;
-                color:#fff;
-                width:120px;
-                border-radius:30px;
-            }
-            .nullified{
-                margin:10px;
-                font-size:25px;
-            }
-            .nullified{
-                font-size:15px;
-                opacity:0.6;
-                margin:10px;
-							}
 /*Card Slide*/
 .slider {
   display: flex;
