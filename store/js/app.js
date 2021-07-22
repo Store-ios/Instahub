@@ -93,8 +93,8 @@ function toggleWhiteTheme() {
 }
 
 //Follow us on twitter
-//app.dialog.confirm("Follow us on Twitter to get our notification in time.","InstaHub",function(){
- // window.location.href="https://twitter.com/instahubapp";
+//app.dialog.confirm("Subscribe to our channel to get notifications in time.","InstaTechHD",function(){
+//window.location.href="https://youtube.com/instahubapp";
 //});
 
 //block inspect element
@@ -118,34 +118,25 @@ document.onkeydown = function (e) {
 //Disable right click
 document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }} 
 
-// Create dynamic Popup
-var dynamicPopup = app.popup.create({
-  content: '<div class="popup">'+
-              '<div class="block">'+
-                '<p><a href="#" class="link popup-close">Close</a></p>'+
-                'document.write ("html lol");'+
-              '</div>'+
-            '</div>',
-  // Events
-  on: {
-    open: function (popup) {
-      console.log('Popup open');
-    },
-    opened: function (popup) {
-      console.log('Popup opened');
-    },
-  }
+// Create full-layout notification
+var notificationFull = app.notification.create({
+  icon: '<i class="icon f7-icons if-not-md">i</i>',
+  title: 'Framework7',
+  titleRightText: 'now',
+  subtitle: 'InstaHub',
+  text: 'Subscribe to our channel on the homepage :-)',
+  closeTimeout: 3000,
 });
-// Events also can be assigned on instance later
-dynamicPopup.on('close', function (popup) {
-  console.log('Popup close');
+// Open Notifications
+$$('.open-full').on('click', function () {
+  notificationFull.open();
 });
-dynamicPopup.on('closed', function (popup) {
-  console.log('Popup closed');
+$$('.open-with-button').on('click', function () {
+  notificationWithButton.open();
 });
-
-// Open dynamic popup
-$$('.dynamic-popup').on('click', function () {
-  dynamicPopup.open();
+$$('.open-click-to-close').on('click', function () {
+  notificationClickToClose.open();
 });
-
+$$('.open-callback-on-close').on('click', function () {
+  notificationCallbackOnClose.open();
+});
