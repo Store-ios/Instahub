@@ -95,3 +95,47 @@ body {
   margin-right: 10px;
 }
 /*End Slide Card*/
+
+/*Signed Badge*/
+#signed-instahub {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:limegreen;
+}
+#signed-tutubox {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
+#signed-appvalley {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
+#signed-eonhub {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
+#signed-cokernutx {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
+#signed-pandahelper {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
+#signed-ioshaven {
+	position: absolute;
+	top: 25px;
+	right: 12px;
+	background-color:#11ff0d;
+}
