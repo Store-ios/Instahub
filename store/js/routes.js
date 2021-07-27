@@ -3,8 +3,8 @@ var routes = [{
         url: './sections/form/contact.html',
     },
     {
-        path: '/search/',
-        url: './sections/search.html',
+        path: '/tutubox/',
+        url: './sections/tutubox.html',
     },
     {
         path: '/tweakedapps/',
@@ -55,6 +55,10 @@ var routes = [{
         path: '/eclipse/',
         url: './sections/apps/eclipse.html',
     },
+    {
+        path: '/delta/',
+        url: './sections/apps/delta.html',
+			},
 		{
         path: '/nullified/',
         url: './sections/nullified.html',

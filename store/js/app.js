@@ -140,3 +140,8 @@ $$('.open-click-to-close').on('click', function () {
 $$('.open-callback-on-close').on('click', function () {
   notificationCallbackOnClose.open();
 });
+
+//Providers coming soon
+function myFunction() {
+  alert("Coming Soon!");
+}
