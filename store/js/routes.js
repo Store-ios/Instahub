@@ -1,4 +1,8 @@
 var routes = [{
+    path: "/main/",
+    url: "./index.html",
+  },
+    {
         path: '/contact/',
         url: './sections/form/contact.html',
     },
@@ -15,8 +19,8 @@ var routes = [{
         url: './sections/paidgames.html',
     },
     {
-        path: '/tweakedgames/',
-        url: './sections/tweakedgames.html',
+        path: '/failedtoverify/',
+        url: './sections/failedtoverify.html',
     },
     {
         path: '/jailbreaks/',
@@ -59,6 +63,14 @@ var routes = [{
         path: '/delta/',
         url: './sections/apps/delta.html',
 			},
+			{
+    path: "/aurora/",
+    url: "./sections/apps/aurora.html",
+    },
+		{
+    path: "/provenance/",
+    url: "./sections/apps/provenance.html",
+	},
 		{
         path: '/nullified/',
         url: './sections/nullified.html',
