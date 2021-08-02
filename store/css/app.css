@@ -107,35 +107,42 @@ body {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:#345ff2;
 }
 #signed-appvalley {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:black;
 }
 #signed-eonhub {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:black;
 }
 #signed-cokernutx {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:black;
 }
 #signed-pandahelper {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:black;
 }
 #signed-ioshaven {
 	position: absolute;
 	top: 25px;
 	right: 12px;
-	background-color:#11ff0d;
+	background-color:black;
+}
+
+/*Light Mode*/
+#sun {
+	position: absolute;
+	top: 25px;
+	right: 12px;
 }
