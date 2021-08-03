@@ -8,7 +8,7 @@ var routes = [{
     },
     {
         path: '/tutubox/',
-        url: './sections/tutubox.html',
+        url: './sections/providers/tutubox.html',
     },
     {
         path: '/tweakedapps/',
