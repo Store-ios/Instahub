@@ -75,6 +75,23 @@ var routes = [{
         path: '/nullified/',
         url: './sections/nullified.html',
 		},
+		//Providers
+		{
+    path: "/unctutu/",
+    url: "./sections/apps/unctutu.html",
+	},
+	{
+    path: "/tutudelta/",
+    url: "./sections/apps/tutudelta.html",
+	},
+	{
+    path: "/tutuppsspp/",
+    url: "./sections/apps/tutuppsspp.html",
+	},
+	{
+    path: "/ppsspp/",
+    url: "./sections/apps/ppsspp.html",
+	},
       // Default route (404 page). MUST BE THE LAST
     {
     path: "(.*)",
