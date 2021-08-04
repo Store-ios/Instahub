@@ -17,7 +17,7 @@
       <meta http-equiv="refresh" content="0;url=error.html">
     </noscript>
   </head>
-  <body>
+  <body ondragstart="return false;" ondrop="return false;">
     <div id="app" class="theme-dark">
     <div class="views tabs safe-areas">
     <div class="toolbar toolbar-bottom tabbar">
@@ -40,7 +40,7 @@
           <div class="navbar-inner">
             <div class="title sliding">Home</div>
             <div class="title-large">
-              <div class="title-large-text">Home<i id="signed-instahub" class="badge badge-pill badge-Signed"></i></div>
+              <div class="title-large-text">Home<i id="signed-instahub" class="badge badge-pill badge-instahub"></i></div>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
                     <div class="item-title-row" style="margin-top: 2.5px">
                       <div class="item-title">Anti Revoke</div>
                       <div class="item-after">
-                        <a href="#" class="button open-full popup-open open-full" data-popup=".popup-about" style="margin-top: 10px"><ion-icon name="cloud-download-outline"></ion-icon></a>
+                        <a href="#" class="button button-raised open-full button-fill button-round open-full popup-open open-full" data-popup=".popup-about" style="margin-top: 10px">open</a>
                       </div>
                     </div>
                     <div class="item-subtitle" style="margin-top: -12.5px">No More Revokes</div>
