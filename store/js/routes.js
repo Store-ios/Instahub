@@ -7,10 +7,6 @@ var routes = [{
         url: './sections/form/contact.html',
     },
     {
-        path: '/tutubox/',
-        url: './sections/providers/tutubox.html',
-    },
-    {
         path: '/tweakedapps/',
         url: './sections/tweakedapps/games.html',
     },
@@ -50,7 +46,9 @@ var routes = [{
         path: '/scarlet/',
         url: './sections/scarlet.html',
     },
-    // Apps
+
+
+    //InstaHub Apps
     {
         path: '/spotify/',
         url: './sections/apps/spotify.html',
@@ -75,22 +73,51 @@ var routes = [{
         path: '/nullified/',
         url: './sections/nullified.html',
 		},
-		//Providers
+    {
+    path: "/ppsspp/",
+    url: "./sections/apps/ppsspp.html",
+	 },
+
+
+		//providers
+		{
+        path: '/tutubox/',
+        url: './sections/providers/tutubox.html',
+			},
+
+
+		//tutubox apps
 		{
     path: "/unctutu/",
-    url: "./sections/apps/unctutu.html",
+    url: "./sections/apps/tutubox/unctutu.html",
 	},
 	{
     path: "/tutudelta/",
-    url: "./sections/apps/tutudelta.html",
+    url: "./sections/apps/tutubox/tutudelta.html",
+	},
+	{
+    path: "/ipogotutu/",
+    url: "./sections/apps/tutubox/ipogotutu.html",
+	},
+	{
+    path: "/fortnitetutu/",
+    url: "./sections/apps/tutubox/fortnitetutu.html",
 	},
 	{
     path: "/tutuppsspp/",
-    url: "./sections/apps/tutuppsspp.html",
+    url: "./sections/apps/tutubox/tutuppsspp.html",
 	},
 	{
-    path: "/ppsspp/",
-    url: "./sections/apps/ppsspp.html",
+    path: "/ppsspptutu/",
+    url: "./sections/apps/tutubox/ppsspptutu.html",
+	},
+	{
+    path: "/taurinetutu/",
+    url: "./sections/apps/tutubox/taurinetutu.html",
+	},
+	{
+    path: "/odysseytutu/",
+    url: "./sections/apps/tutubox/odysseytutu.html",
 	},
       // Default route (404 page). MUST BE THE LAST
     {
