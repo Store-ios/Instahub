@@ -77,7 +77,18 @@ var routes = [{
     path: "/ppsspp/",
     url: "./sections/apps/ppsspp.html",
 	 },
-
+	 {
+    path: "/happychick/",
+    url: "./sections/apps/happychick.html",
+	 },
+	 {
+    path: "/gba4ios/",
+    url: "./sections/apps/gba4ios.html",
+	 },
+	 {
+    path: "/inds/",
+    url: "./sections/apps/inds.html",
+	},
 
 		//providers
 		{
@@ -114,6 +125,10 @@ var routes = [{
 	{
     path: "/taurinetutu/",
     url: "./sections/apps/tutubox/taurinetutu.html",
+	},
+	{
+    path: "/tiktoktutu/",
+    url: "./sections/apps/tutubox/tiktoktutu.html",
 	},
 	{
     path: "/odysseytutu/",
