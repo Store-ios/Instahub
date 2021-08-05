@@ -46,27 +46,31 @@ var routes = [{
         path: '/scarlet/',
         url: './sections/scarlet.html',
     },
+		{
+        path: '/ads/',
+        url: './sections/ads.html',
+			},
 
 
     //InstaHub Apps
     {
-        path: '/spotify/',
+        path: '/4/',
         url: './sections/apps/spotify.html',
     },
     {
-        path: '/eclipse/',
+        path: '/6/',
         url: './sections/apps/eclipse.html',
     },
     {
-        path: '/delta/',
+        path: '/7/',
         url: './sections/apps/delta.html',
 			},
 			{
-    path: "/aurora/",
+    path: "/8/",
     url: "./sections/apps/aurora.html",
     },
 		{
-    path: "/provenance/",
+    path: "/9/",
     url: "./sections/apps/provenance.html",
 	},
 		{
@@ -74,22 +78,33 @@ var routes = [{
         url: './sections/nullified.html',
 		},
     {
-    path: "/ppsspp/",
+    path: "/13/",
     url: "./sections/apps/ppsspp.html",
 	 },
 	 {
-    path: "/happychick/",
+    path: "/10/",
     url: "./sections/apps/happychick.html",
 	 },
 	 {
-    path: "/gba4ios/",
+    path: "/11/",
     url: "./sections/apps/gba4ios.html",
 	 },
 	 {
-    path: "/inds/",
+    path: "/12/",
     url: "./sections/apps/inds.html",
 	},
-
+	{
+    path: "/3/",
+    url: "./sections/apps/cercube.html",
+	},
+	{
+    path: "/2/",
+    url: "./sections/apps/ytmusic.html",
+	},
+	{
+    path: "/1/",
+    url: "./sections/apps/deezer.html",
+	},
 		//providers
 		{
         path: '/tutubox/',
