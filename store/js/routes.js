@@ -54,23 +54,23 @@ var routes = [{
 
     //InstaHub Apps
     {
-        path: '/4/',
+        path: '/spotify/',
         url: './sections/apps/spotify.html',
     },
     {
-        path: '/6/',
+        path: '/eclipse/',
         url: './sections/apps/eclipse.html',
     },
     {
-        path: '/7/',
+        path: '/delta/',
         url: './sections/apps/delta.html',
 			},
 			{
-    path: "/8/",
+    path: "/aurora/",
     url: "./sections/apps/aurora.html",
     },
 		{
-    path: "/9/",
+    path: "/provenance/",
     url: "./sections/apps/provenance.html",
 	},
 		{
@@ -78,32 +78,36 @@ var routes = [{
         url: './sections/nullified.html',
 		},
     {
-    path: "/13/",
+    path: "/ppsspp/",
     url: "./sections/apps/ppsspp.html",
 	 },
 	 {
-    path: "/10/",
+    path: "/happychick/",
     url: "./sections/apps/happychick.html",
 	 },
 	 {
-    path: "/11/",
+    path: "/gba4ios/",
     url: "./sections/apps/gba4ios.html",
 	 },
 	 {
-    path: "/12/",
+    path: "/inds/",
     url: "./sections/apps/inds.html",
 	},
 	{
-    path: "/3/",
+    path: "/cercube/",
     url: "./sections/apps/cercube.html",
 	},
 	{
-    path: "/2/",
+    path: "/ytmusic/",
     url: "./sections/apps/ytmusic.html",
 	},
 	{
-    path: "/1/",
+    path: "/deezer/",
     url: "./sections/apps/deezer.html",
+	},
+	{
+    path: "/tiktok/",
+    url: "./sections/apps/tiktokunicorn.html",
 	},
 		//providers
 		{
@@ -148,6 +152,26 @@ var routes = [{
 	{
     path: "/odysseytutu/",
     url: "./sections/apps/tutubox/odysseytutu.html",
+	},
+	
+	//Other OS
+	{
+    path: "/windows/",
+    url: "./sections/otheros/windows.html",
+	},
+	{
+    path: "/mac/",
+    url: "./sections/otheros/mac.html",
+	},
+	{
+    path: "/android/",
+    url: "./sections/otheros/android.html",
+	},
+	
+	//Windows Apps
+	{
+    path: "/msoffice/",
+    url: "./sections/apps/windows/msoffice.html",
 	},
       // Default route (404 page). MUST BE THE LAST
     {
