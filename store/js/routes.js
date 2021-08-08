@@ -153,6 +153,10 @@ var routes = [{
     path: "/odysseytutu/",
     url: "./sections/apps/tutubox/odysseytutu.html",
 	},
+	{
+    path: "/instaplustutu/",
+    url: "./sections/apps/tutubox/instaplustutu.html",
+	},
 	
 	//Other OS
 	{
