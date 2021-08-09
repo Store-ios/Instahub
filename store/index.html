@@ -17,7 +17,9 @@
       <meta http-equiv="refresh" content="0;url=error.html">
     </noscript>
   </head>
-  <body ondragstart="return false;" ondrop="return false;">
+  <body ondragstart="return false" ondrop="return false;" draggable="false" ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();"  
+       ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();"  
+        ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
     <div id="app" class="theme-dark">
 			<!-- Ads --
 			<script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4426694,document.body||document.documentElement)</script>
@@ -140,7 +142,7 @@
 								<li>
                   <a href="/mac/" class="item-link item-content external">
                     <div class="item-media">
-                      <img src="https://bit.ly/3jIZvth" width="40" style="border-radius: 10px">
+                      <img src="https://bit.ly/3fJHtpc" width="40" style="border-radius: 10px">
                     </div>
                     <div class="item-inner">
                       <div class="item-title-row">
