@@ -109,6 +109,10 @@ var routes = [{
     path: "/tiktok/",
     url: "./sections/apps/tiktokunicorn.html",
 	},
+	{
+    path: "/instaplus/",
+    url: "./sections/apps/instaplus.html",
+	},
 		//providers
 		{
         path: '/tutubox/',
@@ -117,6 +121,10 @@ var routes = [{
 
 
 		//tutubox apps
+		{
+    path: "/tutuboxapp/",
+    url: "./sections/apps/tutubox/tutubox.html",
+	},
 		{
     path: "/unctutu/",
     url: "./sections/apps/tutubox/unctutu.html",
@@ -176,6 +184,133 @@ var routes = [{
 	{
     path: "/msoffice/",
     url: "./sections/apps/windows/msoffice.html",
+	},
+	//Android Apps
+	{
+    path: "/picsartgold/",
+    url: "./sections/apps/android/picsartgold.html",
+	},
+	{
+    path: "/sweetselfie/",
+    url: "./sections/apps/android/sweetselfie.html",
+	},
+	{
+    path: "/gradient/",
+    url: "./sections/apps/android/gradient.html",
+	},
+	{
+    path: "/storyart/",
+    url: "./sections/apps/android/storyart.html",
+	},
+	{
+    path: "/vimage/",
+    url: "./sections/apps/android/vimage.html",
+	},
+	{
+    path: "/inshotapk/",
+    url: "./sections/apps/android/inshotproapk.html",
+	},
+	{
+    path: "/presetapk/",
+    url: "./sections/apps/android/presetapk.html",
+	},
+	{
+    path: "/adobesparkapk/",
+    url: "./sections/apps/android/adobesparkapk.html",
+	},
+	{
+    path: "/coffeecam/",
+    url: "./sections/apps/android/coffeecam.html",
+	},
+	{
+    path: "/magicut/",
+    url: "./sections/apps/android/magicut.html",
+	},
+	{
+    path: "/tezza/",
+    url: "./sections/apps/android/tezza.html",
+	},
+	{
+    path: "/canvaapk/",
+    url: "./sections/apps/android/canvaapk.html",
+	},
+	
+	//Android Games
+	{
+    path: "/gtasaapk/",
+    url: "./sections/apps/android/gtasaapk.html",
+	},
+	{
+    path: "/codmapk/",
+    url: "./sections/apps/android/codmapk.html",
+	},
+	{
+    path: "/codkr/",
+    url: "./sections/apps/android/codkr.html",
+	},
+	
+		//Android System
+	{
+    path: "/superclone/",
+    url: "./sections/apps/android/superclone.html",
+	},
+	{
+    path: "/esfileapk/",
+    url: "./sections/apps/android/esfileapk.html",
+	},
+	{
+    path: "/avgvirus/",
+    url: "./sections/apps/android/avgvirus.html",
+	},
+	{
+    path: "/yourhour/",
+    url: "./sections/apps/android/yourhour.html",
+	},
+	{
+    path: "/mtmanager/",
+    url: "./sections/apps/android/mtmanager.html",
+	},
+	{
+    path: "/fstop/",
+    url: "./sections/apps/android/fstop.html",
+	},
+	{
+    path: "/pdpro/",
+    url: "./sections/apps/android/pdpro.html",
+	},
+	
+	//Android Entertainment
+		{
+    path: "/hotstarapk/",
+    url: "./sections/apps/android/hotstarapk.html",
+	},
+	{
+    path: "/huluapk/",
+    url: "./sections/apps/android/huluapk.html",
+	},
+	{
+    path: "/ytvancedapk/",
+    url: "./sections/apps/android/ytvancedapk.html",
+	},
+	{
+    path: "/crunchyrollapk/",
+    url: "./sections/apps/android/crunchyrollapk.html",
+	},
+	{
+    path: "/omletarcadeapk/",
+    url: "./sections/apps/android/omletarcadeapk.html",
+	},
+	{
+    path: "/animefox/",
+    url: "./sections/apps/android/animefox.html",
+	},
+	{
+    path: "/netflix/",
+    url: "./sections/apps/android/netflix.html",
+	},
+	{
+    path: "/primevideo/",
+    url: "./sections/apps/android/primevideo.html",
 	},
       // Default route (404 page). MUST BE THE LAST
     {
