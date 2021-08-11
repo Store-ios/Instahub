@@ -51,7 +51,11 @@ var routes = [{
         url: './sections/ads.html',
 			},
 
-
+			//Single Signed Apps
+		{
+    path: "/signedapps/",
+    url: "./sections/signedapps.html",
+	}, 
     //InstaHub Apps
     {
         path: '/spotify/',
