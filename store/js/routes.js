@@ -185,6 +185,10 @@ var routes = [{
     path: "/mediaboxhd/",
     url: "./sections/apps/mediaboxhd.html",
 	},
+	{
+    path: "/movieboxpro/",
+    url: "./sections/apps/movieboxpro.html",
+	},
 	
 		//providers
 		{
