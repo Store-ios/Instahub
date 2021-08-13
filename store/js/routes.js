@@ -189,6 +189,10 @@ var routes = [{
     path: "/movieboxpro/",
     url: "./sections/apps/movieboxpro.html",
 	},
+	{
+    path: "/pandora/",
+    url: "./sections/apps/pandora.html",
+	},
 	
 		//providers
 		{
