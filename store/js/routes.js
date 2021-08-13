@@ -3,8 +3,8 @@ var routes = [{
     url: "./index.html",
   },
     {
-        path: '/contact/',
-        url: './sections/form/contact.html',
+        path: '/photoandvideo/',
+        url: './sections/photoandvideo.html',
     },
     {
         path: '/tweakedapps/',
@@ -117,6 +117,75 @@ var routes = [{
     path: "/instaplus/",
     url: "./sections/apps/instaplus.html",
 	},
+	{
+    path: "/nds4ios/",
+    url: "./sections/apps/nds4ios.html",
+	},
+	{
+    path: "/everycord/",
+    url: "./sections/apps/everycord.html",
+	},
+	{
+    path: "/airrec/",
+    url: "./sections/apps/airrec.html",
+	},
+	{
+    path: "/airshou/",
+    url: "./sections/apps/airshou.html",
+	},
+	{
+    path: "/audiomack/",
+    url: "./sections/apps/audiomack.html",
+	},
+	{
+    path: "/bazaart/",
+    url: "./sections/apps/bazaart.html",
+	},
+	{
+    path: "/picsart/",
+    url: "./sections/apps/picsart.html",
+	},
+	{
+    path: "/procam6/",
+    url: "./sections/apps/procam6.html",
+	},
+	{
+    path: "/storyartios/",
+    url: "./sections/apps/storyartios.html",
+	},
+	{
+    path: "/lumafusion/",
+    url: "./sections/apps/lumafusion.html",
+	},
+	{
+    path: "/kinemaster/",
+    url: "./sections/apps/kinemaster.html",
+	},
+	{
+    path: "/inshot/",
+    url: "./sections/apps/inshot.html",
+	},
+	{
+    path: "/filmicpro/",
+    url: "./sections/apps/filmicpro.html",
+	},
+	{
+    path: "/facetune/",
+    url: "./sections/apps/facetune.html",
+	},
+	{
+    path: "/procreate/",
+    url: "./sections/apps/procreate.html",
+	},
+	{
+    path: "/zinitevi/",
+    url: "./sections/apps/zinitevi.html",
+	},
+	{
+    path: "/mediaboxhd/",
+    url: "./sections/apps/mediaboxhd.html",
+	},
+	
 		//providers
 		{
         path: '/tutubox/',
