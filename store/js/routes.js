@@ -193,6 +193,14 @@ var routes = [{
     path: "/pandora/",
     url: "./sections/apps/pandora.html",
 	},
+	{
+    path: "/youtube/",
+    url: "./sections/apps/youtube.html",
+	},
+	{
+    path: "/spotifyplus/",
+    url: "./sections/apps/spotifyplus.html",
+	},
 	
 		//providers
 		{
