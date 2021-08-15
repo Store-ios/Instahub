@@ -213,6 +213,10 @@ var routes = [{
     path: "/ipogo/",
     url: "./sections/apps/ipogo.html",
 	},
+	{
+    path: "/instarocket/",
+    url: "./sections/apps/instarocket.html",
+	},
 	
 		//providers
 		{
