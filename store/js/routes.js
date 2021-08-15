@@ -11,8 +11,8 @@ var routes = [{
         url: './sections/tweakedapps/games.html',
     },
     {
-        path: '/paidgames/',
-        url: './sections/paidgames.html',
+        path: '/lifestyle/',
+        url: './sections/lifestyle.html',
     },
     {
         path: '/failedtoverify/',
@@ -200,6 +200,18 @@ var routes = [{
 	{
     path: "/spotifyplus/",
     url: "./sections/apps/spotifyplus.html",
+	},
+	{
+    path: "/coronacases/",
+    url: "./sections/apps/coronacases.html",
+	},
+	{
+    path: "/taurine/",
+    url: "./sections/apps/taurine.html",
+	},
+	{
+    path: "/ipogo/",
+    url: "./sections/apps/ipogo.html",
 	},
 	
 		//providers
