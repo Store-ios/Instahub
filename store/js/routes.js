@@ -218,6 +218,12 @@ var routes = [{
     url: "./sections/apps/instarocket.html",
 	},
 	
+	
+	//themes
+		{
+        path: '/blackwhite/',
+        url: './sections/themes/blackwhite.html',
+			},
 		//providers
 		{
         path: '/tutubox/',
