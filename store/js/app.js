@@ -93,9 +93,9 @@ function toggleWhiteTheme() {
 }
 
 //Follow us on twitter
-//app.dialog.confirm("Subscribe to our channel to get notifications in time.","InstaTechHD",function(){
-//window.location.href="https://youtube.com/instahubapp";
-//});
+app.dialog.confirm("Subscribe to our channel to get notifications in time.","InstaTechHD",function(){
+window.location.href="https://youtube.com/instahubapp";
+});
 
 //block inspect element
 document.onkeydown = function (e) { 
@@ -145,3 +145,16 @@ $$('.open-callback-on-close').on('click', function () {
 function myFunction() {
   alert("Coming Soon!");
 }
+
+//theme toggle
+function toggleWhiteTheme() {
+      var element = document.body;
+			var element2 = document.getElementById("app")
+	  element.classList.toggle("theme-dark");
+    element.classList.toggle("light");
+		element2.classList.toggle("allappstop");
+		element2.classList.toggle("allappstopl")
+		
+	}
+	
+	
