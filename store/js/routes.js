@@ -280,6 +280,10 @@ var routes = [{
     path: "/instaplustutu/",
     url: "./sections/apps/tutubox/instaplustutu.html",
 	},
+	{
+    path: "/watusitutu/",
+    url: "./sections/apps/tutubox/watusitutu.html",
+	},
 	
 	//Other OS
 	{
