@@ -229,6 +229,10 @@ var routes = [{
     path: "/fnafsister/",
     url: "./sections/apps/fnafsister.html",
 	},
+	{
+    path: "/fnaf/",
+    url: "./sections/apps/fnaf.html",
+	},
 	
 	
 	//themes
