@@ -225,6 +225,10 @@ var routes = [{
     path: "/videostar/",
     url: "./sections/apps/videostar.html",
 	},
+	{
+    path: "/fnafsister/",
+    url: "./sections/apps/fnafsister.html",
+	},
 	
 	
 	//themes
