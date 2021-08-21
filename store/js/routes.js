@@ -221,6 +221,10 @@ var routes = [{
     path: "/instarocket/",
     url: "./sections/apps/instarocket.html",
 	},
+	{
+    path: "/videostar/",
+    url: "./sections/apps/videostar.html",
+	},
 	
 	
 	//themes
@@ -283,6 +287,10 @@ var routes = [{
 	{
     path: "/watusitutu/",
     url: "./sections/apps/tutubox/watusitutu.html",
+	},
+	{
+    path: "/crunchyrolltutu/",
+    url: "./sections/apps/tutubox/crunchyrolltutu.html",
 	},
 	
 	//Other OS
