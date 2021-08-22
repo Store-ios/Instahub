@@ -233,6 +233,10 @@ var routes = [{
     path: "/fnaf/",
     url: "./sections/apps/fnaf.html",
 	},
+	{
+    path: "/videoleap/",
+    url: "./sections/apps/videoleap.html",
+	},
 	
 	
 	//themes
