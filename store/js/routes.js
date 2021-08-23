@@ -237,6 +237,30 @@ var routes = [{
     path: "/videoleap/",
     url: "./sections/apps/videoleap.html",
 	},
+	{
+    path: "/badoo/",
+    url: "./sections/apps/badoo.html",
+	},
+	{
+    path: "/snapchat/",
+    url: "./sections/apps/snapchat.html",
+	},
+	{
+    path: "/facebook/",
+    url: "./sections/apps/facebook.html",
+	},
+	{
+    path: "/twitter/",
+    url: "./sections/apps/twitter.html",
+	},
+	{
+    path: "/tinder/",
+    url: "./sections/apps/tinder.html",
+	},
+	{
+    path: "/discord/",
+    url: "./sections/apps/discord.html",
+	},
 	
 	
 	//themes
@@ -325,6 +349,14 @@ var routes = [{
     url: "./sections/apps/windows/msoffice.html",
 	},
 	//Android Apps
+	{
+    path: "/pornhub/",
+    url: "./sections/apps/android/pornhub.html",
+	},
+	{
+    path: "/sling/",
+    url: "./sections/apps/android/sling.html",
+	},
 	{
     path: "/picsartgold/",
     url: "./sections/apps/android/picsartgold.html",
