@@ -2,6 +2,11 @@ var routes = [{
     path: "/main/",
     url: "./index.html",
   },
+	//Forms
+    {
+        path: '/request/',
+        url: './sections/forms/request.html',
+    },
     {
         path: '/photoandvideo/',
         url: './sections/photoandvideo.html',
