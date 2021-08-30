@@ -2,6 +2,7 @@ var routes = [{
     path: "/main/",
     url: "./index.html",
   },
+
 	//Forms
     {
         path: '/request/',
@@ -61,6 +62,7 @@ var routes = [{
     path: "/signedapps/",
     url: "./sections/signedapps.html",
 	}, 
+
     //InstaHub Apps
     {
         path: '/spotify/',
@@ -163,38 +165,6 @@ var routes = [{
     url: "./sections/apps/lumafusion.html",
 	},
 	{
-    path: "/textnow/",
-    url: "./sections/apps/textnow.html",
-	},
-	{
-    path: "/lastpass/",
-    url: "./sections/apps/lastpass.html",
-	},
-	{
-    path: "/reports/",
-    url: "./sections/apps/reports.html",
-	},
-	{
-    path: "/pythonista/",
-    url: "./sections/apps/pythonista.html",
-	},
-	{
-    path: "/watusi/",
-    url: "./sections/apps/watusi.html",
-	},
-	{
-    path: "/twitch/",
-    url: "./sections/apps/twitch.html",
-	},
-	{
-    path: "/whatspad/",
-    url: "./sections/apps/whatspad.html",
-	},
-	{
-    path: "/messengershark/",
-    url: "./sections/apps/messengershark.html",
-	},
-	{
     path: "/kinemaster/",
     url: "./sections/apps/kinemaster.html",
 	},
@@ -221,10 +191,6 @@ var routes = [{
 	{
     path: "/mediaboxhd/",
     url: "./sections/apps/mediaboxhd.html",
-	},
-	{
-    path: "/textastic/",
-    url: "./sections/apps/textastic.html",
 	},
 	{
     path: "/movieboxpro/",
@@ -309,12 +275,15 @@ var routes = [{
         path: '/blackwhite/',
         url: './sections/themes/blackwhite.html',
 			},
+
 		//providers
 		{
         path: '/tutubox/',
         url: './sections/providers/tutubox.html',
 			},
-			{
+
+			//providers
+		{
         path: '/appvalley/',
         url: './sections/providers/appvalley.html',
 			},
@@ -372,7 +341,7 @@ var routes = [{
     path: "/crunchyrolltutu/",
     url: "./sections/apps/tutubox/crunchyrolltutu.html",
 	},
-	      
+	
 			//AppValley apps
 		{
     path: "/appvalleyapp/",
@@ -426,7 +395,11 @@ var routes = [{
     path: "/crunchyrollvalley/",
     url: "./sections/apps/appvalley/crunchyrollvalley.html",
 	},
-	
+	{
+    path: "/spotifyvalley/",
+    url: "./sections/apps/appvalley/spotifyvalley.html",
+	},
+
 	//Other OS
 	{
     path: "/windows/",
