@@ -163,6 +163,38 @@ var routes = [{
     url: "./sections/apps/lumafusion.html",
 	},
 	{
+    path: "/textnow/",
+    url: "./sections/apps/textnow.html",
+	},
+	{
+    path: "/lastpass/",
+    url: "./sections/apps/lastpass.html",
+	},
+	{
+    path: "/reports/",
+    url: "./sections/apps/reports.html",
+	},
+	{
+    path: "/pythonista/",
+    url: "./sections/apps/pythonista.html",
+	},
+	{
+    path: "/watusi/",
+    url: "./sections/apps/watusi.html",
+	},
+	{
+    path: "/twitch/",
+    url: "./sections/apps/twitch.html",
+	},
+	{
+    path: "/whatspad/",
+    url: "./sections/apps/whatspad.html",
+	},
+	{
+    path: "/messengershark/",
+    url: "./sections/apps/messengershark.html",
+	},
+	{
     path: "/kinemaster/",
     url: "./sections/apps/kinemaster.html",
 	},
@@ -282,7 +314,10 @@ var routes = [{
         path: '/tutubox/',
         url: './sections/providers/tutubox.html',
 			},
-
+			{
+        path: '/appvalley/',
+        url: './sections/providers/appvalley.html',
+			},
 
 		//tutubox apps
 		{
