@@ -395,10 +395,6 @@ var routes = [{
     path: "/crunchyrollvalley/",
     url: "./sections/apps/appvalley/crunchyrollvalley.html",
 	},
-	{
-    path: "/spotifyvalley/",
-    url: "./sections/apps/appvalley/spotifyvalley.html",
-	},
 
 	//Other OS
 	{
