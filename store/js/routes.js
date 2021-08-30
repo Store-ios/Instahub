@@ -372,6 +372,60 @@ var routes = [{
     path: "/crunchyrolltutu/",
     url: "./sections/apps/tutubox/crunchyrolltutu.html",
 	},
+	      
+			//AppValley apps
+		{
+    path: "/appvalleyapp/",
+    url: "./sections/apps/appvalley/appvalleyapp.html",
+	},
+		{
+    path: "/uncvalley/",
+    url: "./sections/apps/appvalley/uncvalley.html",
+	},
+	{
+    path: "/deltavalley/",
+    url: "./sections/apps/appvalley/deltavalley.html",
+	},
+	{
+    path: "/ipogovalley/",
+    url: "./sections/apps/appvalley/ipogovalley.html",
+	},
+	{
+    path: "/fortnitevalley/",
+    url: "./sections/apps/appvalley/fortnitevalley.html",
+	},
+	{
+    path: "/ppssppvalley/",
+    url: "./sections/apps/appvalley/ppssppvalley.html",
+	},
+	{
+    path: "/cocvalley/",
+    url: "./sections/apps/appvalley/cocvalley.html",
+	},
+	{
+    path: "/channelsvalley/",
+    url: "./sections/apps/appvalley/channelsvalley.html",
+	},
+	{
+    path: "/tiktokvalley/",
+    url: "./sections/apps/appvalley/tiktokvalley.html",
+	},
+	{
+    path: "/odysseyvalley/",
+    url: "./sections/apps/appvalley/odysseyvalley.html",
+	},
+	{
+    path: "/instaplusvalley/",
+    url: "./sections/apps/appvalley/instaplusvalley.html",
+	},
+	{
+    path: "/watusivalley/",
+    url: "./sections/apps/appvalley/watusivalley.html",
+	},
+	{
+    path: "/crunchyrollvalley/",
+    url: "./sections/apps/appvalley/crunchyrollvalley.html",
+	},
 	
 	//Other OS
 	{
