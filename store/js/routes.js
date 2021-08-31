@@ -2,7 +2,6 @@ var routes = [{
     path: "/main/",
     url: "./index.html",
   },
-
 	//Forms
     {
         path: '/request/',
@@ -62,7 +61,6 @@ var routes = [{
     path: "/signedapps/",
     url: "./sections/signedapps.html",
 	}, 
-
     //InstaHub Apps
     {
         path: '/spotify/',
@@ -165,6 +163,38 @@ var routes = [{
     url: "./sections/apps/lumafusion.html",
 	},
 	{
+    path: "/textnow/",
+    url: "./sections/apps/textnow.html",
+	},
+	{
+    path: "/lastpass/",
+    url: "./sections/apps/lastpass.html",
+	},
+	{
+    path: "/reports/",
+    url: "./sections/apps/reports.html",
+	},
+	{
+    path: "/pythonista/",
+    url: "./sections/apps/pythonista.html",
+	},
+	{
+    path: "/watusi/",
+    url: "./sections/apps/watusi.html",
+	},
+	{
+    path: "/twitch/",
+    url: "./sections/apps/twitch.html",
+	},
+	{
+    path: "/whatspad/",
+    url: "./sections/apps/whatspad.html",
+	},
+	{
+    path: "/messengershark/",
+    url: "./sections/apps/messengershark.html",
+	},
+	{
     path: "/kinemaster/",
     url: "./sections/apps/kinemaster.html",
 	},
@@ -191,6 +221,10 @@ var routes = [{
 	{
     path: "/mediaboxhd/",
     url: "./sections/apps/mediaboxhd.html",
+	},
+	{
+    path: "/textastic/",
+    url: "./sections/apps/textastic.html",
 	},
 	{
     path: "/movieboxpro/",
@@ -257,6 +291,10 @@ var routes = [{
     url: "./sections/apps/facebook.html",
 	},
 	{
+    path: "/spooferx/",
+    url: "./sections/apps/spooferx.html",
+	},
+	{
     path: "/twitter/",
     url: "./sections/apps/twitter.html",
 	},
@@ -268,25 +306,20 @@ var routes = [{
     path: "/discord/",
     url: "./sections/apps/discord.html",
 	},
-	{
-    path: "/spooferx/",
-    url: "./sections/apps/spooferx.html",
-	},
+	
+	
 	
 	//themes
 		{
         path: '/blackwhite/',
         url: './sections/themes/blackwhite.html',
 			},
-
 		//providers
 		{
         path: '/tutubox/',
         url: './sections/providers/tutubox.html',
 			},
-
-			//providers
-		{
+			{
         path: '/appvalley/',
         url: './sections/providers/appvalley.html',
 			},
@@ -345,7 +378,7 @@ var routes = [{
     url: "./sections/apps/tutubox/crunchyrolltutu.html",
 	},
 	
-			//AppValley apps
+				//AppValley apps
 		{
     path: "/appvalleyapp/",
     url: "./sections/apps/appvalley/appvalleyapp.html",
@@ -402,7 +435,7 @@ var routes = [{
     path: "/spotifyvalley/",
     url: "./sections/apps/appvalley/spotifyvalley.html",
 	},
-
+	
 	//Other OS
 	{
     path: "/windows/",
