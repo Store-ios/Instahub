@@ -268,7 +268,10 @@ var routes = [{
     path: "/discord/",
     url: "./sections/apps/discord.html",
 	},
-	
+	{
+    path: "/spooferx/",
+    url: "./sections/apps/spooferx.html",
+	},
 	
 	//themes
 		{
@@ -394,6 +397,10 @@ var routes = [{
 	{
     path: "/crunchyrollvalley/",
     url: "./sections/apps/appvalley/crunchyrollvalley.html",
+	},
+	{
+    path: "/spotifyvalley/",
+    url: "./sections/apps/appvalley/spotifyvalley.html",
 	},
 
 	//Other OS
