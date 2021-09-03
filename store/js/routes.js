@@ -306,7 +306,10 @@ var routes = [{
     path: "/discord/",
     url: "./sections/apps/discord.html",
 	},
-	
+	{
+    path: "/clip/",
+    url: "./sections/apps/clip.html",
+	},
 	
 	
 	//themes
