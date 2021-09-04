@@ -326,6 +326,10 @@ var routes = [{
         path: '/appvalley/',
         url: './sections/providers/appvalley.html',
 			},
+			{
+        path: '/testflight/',
+        url: './sections/providers/testflight.html',
+			},
 
 		//tutubox apps
 		{
@@ -437,6 +441,12 @@ var routes = [{
 	{
     path: "/spotifyvalley/",
     url: "./sections/apps/appvalley/spotifyvalley.html",
+	},
+	
+	//TestFlight Apps
+	{
+    path: "/testflightapp/",
+    url: "./sections/apps/testflight/testflightapp.html",
 	},
 	
 	//Other OS
