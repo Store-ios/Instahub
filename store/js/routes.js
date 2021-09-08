@@ -314,7 +314,10 @@ var routes = [{
     path: "/uyou/",
     url: "./sections/apps/uyou.html",
 	},
-	
+	{
+    path: "/Phœnix/",
+    url: "./sections/apps/Phœnix.html",
+	},
 	//themes
 		{
         path: '/blackwhite/',
