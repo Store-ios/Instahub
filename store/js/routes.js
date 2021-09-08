@@ -310,7 +310,10 @@ var routes = [{
     path: "/clip/",
     url: "./sections/apps/clip.html",
 	},
-	
+	{
+    path: "/uyou/",
+    url: "./sections/apps/uyou.html",
+	},
 	
 	//themes
 		{
